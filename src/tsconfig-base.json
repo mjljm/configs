@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "compilerOptions": {
+    "noErrorTruncation": true,
+    "resolveJsonModule": true,
+    "useDefineForClassFields": true, // Useful for Vite,
+    "isolatedModules": true, // Useful for Vite
+    "noEmit": true, // Make sure tsconfig is used only for linting purposes
+    "allowJs": true,
+    "checkJs": true,
+    "plugins": [
+			{
+				"name": "@effect/language-service"
+			}
+		]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "extends": [
+    "@tsconfig/strictest/tsconfig.json",
+    "@tsconfig/node20/tsconfig.json",
+    "./tsconfig-base.json"
+  ],
+  // These options are not those that will apply on the browser because we have a bundler in between
+  "compilerOptions": {
+    "lib": ["ESNext", "DOM"],
+    "module": "NodeNext",
+    // Compared to Node, NodeNext allows importing with the name of the package from inside the package
+    "moduleResolution": "NodeNext",
+    "target": "ESNext"
+  }
+}
