@@ -17,6 +17,11 @@
 			}
 		}
 	},
+	"imports": {
+		"#mjljm/configs/*": {
+			"import": "./src/*.ts"
+		}
+	},
 	"devDependencies": {
 		"@effect/language-service": "0.0.21",
 		"@html-eslint/eslint-plugin": "0.20.0",
