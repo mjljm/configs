@@ -8,6 +8,7 @@
 		"./tsconfig-base.json"
 	],
 	"compilerOptions": {
+		"lib": ["ESNext", "DOM"],
 		"module": "ESNext",
 		// Compared to Node, NodeNext allows importing with the name of the package from inside the package
 		"moduleResolution": "Bundler",
