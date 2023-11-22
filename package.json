@@ -11,9 +11,9 @@
 			"require": "./src/tsconfig-browser.json"
 		},
 		"./.prettierrc": {
-			"import": "./.prettierrc.js",
+			"import": "./src/.prettierrc.js",
 			"types": {
-				"import": "./.prettierrc.d.ts"
+				"import": "./src/.prettierrc.d.ts"
 			}
 		}
 	},

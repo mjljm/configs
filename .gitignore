@@ -1,6 +1,2 @@
-# Without a slash at start or in the middle: everywhere downwards. Same as starting with **/
-# With a slash at start or in the middle: relative to this file
-# With a final slash: only directories. Without a final slash, files or directories
-# With a final /**: everything inside recursively
 dist/
 node_modules/
