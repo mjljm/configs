@@ -1,11 +1,15 @@
 {
-	"extends": ["./src/tsconfig-node.json"],
+	"extends": ["@mjljm/configs/tsconfig-library.json"],
 	"compilerOptions": {
 		// This path definition allows auto-import in VSCode with
 		// "typescript.preferences.importModuleSpecifier": "non-relative",
 		"paths": {
-			"#mjljm/configs/*": ["./src/*.ts"]
-		}
+			"@mjljm/configs/*": ["./src/*.ts"]
+		},
+		"plugins": [
+			{
+			   "name": "@effect/language-service"
+			}]
 	},
-	"include": [".*", "*", "src"]
+	"include": ["src", ".*", "*"]
 }

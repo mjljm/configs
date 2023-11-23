@@ -1,1 +1,1 @@
-{ "projectType": "configs", "projectLibrary": "sharedNodeBrowser" }
+{ "projectType": "library", "projectLibrary": "library" }
