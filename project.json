@@ -1,6 +1,5 @@
 {
 	"type": "configs",
-	"library": "library",
 	"version": "1.0.0",
 	"access": "restricted",
 	"description": "",
