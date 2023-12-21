@@ -11,7 +11,7 @@ export default {
 				semi: true,
 				singleQuote: true,
 				trailingComma: 'none',
-				printWidth: 80
+				printWidth: 120
 			}
 		}
 	]
