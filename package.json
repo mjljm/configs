@@ -60,7 +60,7 @@
 		"clean-pnpm-cache": "rimraf node_modules"
 	},
 	"devDependencies": {
-		"@tsconfig/node20": "20.1.2",
-		"@tsconfig/strictest": "2.0.3"
+		"@tsconfig/node20": "20.1.3",
+		"@tsconfig/strictest": "2.0.4"
 	}
 }
